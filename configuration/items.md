@@ -625,7 +625,7 @@ Number  Azimuth            "Azimuth"                       {channel="astro:sun:h
 Contact Garage             "Garage is [MAP(en.map):%s]"    {channel="zwave:21:command=sensor_binary,respond_to_basic=true"}
 ```
 
-#### Multi Binding/Channel Linkage
+##### Multi Binding / Channel Linkage
 
 An Item may be linked to multiple Bindings and/or Channels.
 Commands and Updates from and to these Items will be combined, and can be used in interesting ways.
